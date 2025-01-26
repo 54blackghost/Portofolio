@@ -17,8 +17,8 @@
         <template v-for="(item, i) in items" :key="i">
         <v-col cols="12" md="4">
         <v-hover v-slot="{isHovering,props}">
-          <v-card :elevation="isHovering ? 12: 2" class="{'on-hover' : isHovring}" v-bind="props">
-          <v-img :src="item.img" height="225px" cover></v-img>
+          <v-card :elevation="isHovering ? 12: 2" class="{'on-hover' : isHovering}" v-bind="props">
+          <v-img :src="item.img" height="225px" aspect-ratio="1"></v-img>
           </v-card>
         </v-hover>
         </v-col>
@@ -128,9 +128,53 @@
 </v-app>
 </template>
 
-<script setup>
+<script>
+/*export default{
+  setup(){
+  return {
+    slider2: 50, // Valeur initiale du slider
+  
+    items:[
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+    {
+        img: "logo.png"
+    },
+],
+  },
+};*/
+import { ref } from "vue";
 
+export default {
+  setup() {
+    const items = ref([
+      { img: "@/assets/1.png"},
+      { img: "@/assets/logo.png"},
+      { img: "@/assets/1.png"},
+      { img: "@/assets/1.png"},
+    ]);
 
+    return {
+      items,
+    };
+  },
+};
 </script>
 
 

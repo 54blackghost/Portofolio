@@ -74,43 +74,8 @@
 
 
 <script>
-import Services from '@/components/Services.vue';
-
-import { defineComponent } from 'vue';
 
 
-export default defineComponent({
-  name: 'Services',
-  setup(){
-  return {
-    slider2: 50, // Valeur initiale du slider
-  
-    items:[
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-    {
-        img: "logo.png"
-    },
-],
-}
-}
-})
 
 </script>
 

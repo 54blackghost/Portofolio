@@ -49,8 +49,7 @@
 
 
 <script>
-import { defineComponent } from 'vue';
-export default{
+export default {
     name: "NavBar",
     methods:{
         scroll(refName){
@@ -58,8 +57,7 @@ export default{
             element.scrollIntoView({behavior: "smooth"});
         }
     }
-
-}
+};
 
 </script>
 
