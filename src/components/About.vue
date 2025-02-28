@@ -39,7 +39,7 @@
               </div>
               <div class="ms-3">
                 <h5>Développeur Full Stack </h5>
-                <p class="text-muted mb-1">Laravel Full Stack </p>
+                <p class="text-muted mb-1">Remote Job. 2023 </p>
                 <p>Développement d'applications web d'une Plateforme de donation de dons utilisant Bootstrap5 et Django.</p>
                 <a href="#">
                   <button type="button" class="btn btn-primary">
@@ -58,7 +58,7 @@
               </div>
               <div class="ms-3">
                 <h5>Formation Développement Web</h5>
-                <p class="text-muted mb-1">École de Développement • 2018 - 2020</p>
+                <p class="text-muted mb-1">École de Développement • 2022 - 2023</p>
                 <p>Formation complète en développement web front-end et back-end.</p>
               </div>
             </div>
