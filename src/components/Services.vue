@@ -1,130 +1,79 @@
 <template>
 <v-app>
-  <v-responsive>
-    <v-container fluid>
-    <v-col cols="12" sm="12" id="services">
-    <div class="d-flex justify-center mb-6">
-      <v-btn color="#F8DF7E" class="mr-2">ALL</v-btn>
-      <v-btn variant="tonal" class="mr-2">Web Design</v-btn>
-      <v-btn variant="tonal" class="mr-2">App Design</v-btn>
-      <v-btn variant="tonal" class="mr-2">SEO</v-btn>
-      <v-btn variant="tonal" >Photographie</v-btn>
-    </div>
-    </v-col>
+      <v-responsive>
+          <v-container fluid>
+            <div class="text-center mt-4">
+              <h2>What we Do</h2>
+            </div>
+            <div  style="width: 120px; margin:0 auto;">
+                      <v-slider v-model="slider2" color="yellow" thumb-label=""></v-slider>
+            </div>
+            <v-col cols="12" class="padd" id="portofolio">
+              <div class="first" id="project">
+                <v-row>
+                  <v-col cols="12">
+                    <div class="child">
+                        <v-btn icon color="#F8DF7E" class="text-white">
+                            <v-icon>mdi-laptop</v-icon>
+                        </v-btn>
+                        <h3 class="ml-3 mt-4">Web Design</h3>
+                        <p class="text-grey ml-3 mt-4 text-caption">
+                            wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
+                        </p>
+                    </div>
+                    <div class="child">
+                      <v-btn icon="fas fa-mobile-alt" color="#F8DF7E" class="text-white"></v-btn>
+                        <h3 class="ml-3 mt-4">App Design</h3>
+                        <p class="text-grey ml-3 mt-4 text-caption">
+                            wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
+                        </p>
+                    </div>
+                    <div class="child">
+                        <v-btn icon="fas fa-camera" color="#F8DF7E" class="text-white"></v-btn>
+                        <h3 class="ml-3 mt-4">Photographie</h3>
+                        <p class="text-grey ml-3 mt-4 text-caption">
+                        wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
+                        </p>
+                    </div>
+                  </v-col>
+                </v-row>
+              </div>
+            </v-col>
 
-    <v-col cols="12" class="imgcover">
-      <v-row class="fill-height" align="center" justify="center">
-        <template v-for="(item, i) in items" :key="i">
-        <v-col cols="12" md="4">
-        <v-hover v-slot="{isHovering,props}">
-          <v-card :elevation="isHovering ? 12: 2" class="{'on-hover' : isHovering}" v-bind="props">
-          <v-img :src="item.img" height="225px" aspect-ratio="1"></v-img>
-          </v-card>
-        </v-hover>
-        </v-col>
-        </template>
-
-      </v-row>
-
-    </v-col>
-    <v-col  cols="12" sm="12">
-      <div class="d-flex justify-center mb-6">
-        <v-btn  class="mt-4" color="#F8DF7E"> Load More</v-btn>
-      </div>
-    </v-col>
-    <v-col cols="12" id="page">
-    <div class="pre">
-      <v-row>
-        <v-col cols="12" sm="3">
-          <v-card class="mr auto" max-width="344" height="">
-          <v-img src="@/assets/logo.png" height="200px" cover></v-img>
-        <v-card-title>
-          we provide you the best
-        </v-card-title>
-        <v-card-subtitle>
-          thing in the world
-        </v-card-subtitle>
-        <v-card-text>
-          we provide you the best ernefwjfojw wifjwproj woeiwejr wieriwje
-        </v-card-text>
-        </v-card>
-        </v-col>
-        <v-col cols="12" sm="3">
-          <v-card class="mr auto" max-width="344" height="">
-          <v-img src="@/assets/logo.png" height="200px" cover></v-img>
-        <v-card-title>
-          we provide you the best
-        </v-card-title>
-        <v-card-subtitle>
-          thing in the world
-        </v-card-subtitle>
-        <v-card-text>
-          we provide you the best ernefwjfojw wifjwproj woeiwejr wieriwje
-        </v-card-text>
-        </v-card>
-        </v-col>
-      </v-row>
-    </div>
-    </v-col><br>
-    <v-col cols="12" id="blog">
-      <div class="hire">
-        <v-row>
-          <v-col cols="12" sm="8">
-            <h1 class="mt-9 text-black">Hire me for you awesome web projects</h1>
-            <p class="text-grey">
-              cnwnpigxolw owjowxerkj jowjeorcojqorj jojxocrojeojr joorjcorjoq fecgehxgevuxg thrd
-            </p>
-          </v-col>
-          <v-col cols="12" sm="4">
-          <v-btn color="#F8DF7E" class="mt-15">Hire Me</v-btn>
-          </v-col>
-        </v-row>
-      </div>
-
-    </v-col>
-
-    <v-col cols="12" sm="12" class="px-16" id="contact">
-        <v-row>
-          <v-col cols="12" sm="4">
-        <div class="child">
-            <h1 >Contact info </h1>
-            <v-btn icon="fas fa-map-marker-alt"  variant="outlined" class="mt-10"></v-btn><br>
-            <span class="text-caption">
-              your street, 
-            </span><br>
-            <v-btn icon="fas fa-phone-alt"  variant="outlined" class="mt-10"></v-btn><br>
-            <span class="text-caption">
-            00-3900-300-3332223
-            </span><br>
-            <v-btn icon="fas fa-envelope-alt"  variant="outlined" class="mt-10"></v-btn><br>
-            <span class="text-caption">
-            abcexample@gmail.com
-            </span><br>
-        </div>
-          </v-col>
-          <v-col cols="12" sm="8">
-            <h1 class="mt-8">send your message</h1>
+            <br><br>
             <v-divider></v-divider>
-            <span class="text-caption">
-              cnwnpigxolw owjowxerkj jowjeorcojqorj jojxocrojeojr joorjcorjoq 
-            </span>
-            <v-row class="mt-10">
-              <v-col cols="12" sm="6">
-                <v-text-field label="Name" persistent-hint variant="outlined"></v-text-field>
-              </v-col>
-              <v-col cols="12" sm="6">
-                <v-text-field label="Phone No" persistent-hint variant="outlined"></v-text-field>
-              </v-col>
-            </v-row>
-                <v-textarea label="Message" persistent-hint variant="outlined"></v-textarea>
-                <v-btn color="#F8DF7E" class="mt-2">Submit Now</v-btn>
-          </v-col>
-        </v-row>
-      
+            <br>
 
-    </v-col>
-    </v-container>
-  </v-responsive>
+            <v-col cols="12" sm="12" id="services">
+                  <div class="d-flex justify-center mb-6">
+                    <v-btn color="#F8DF7E" class="mr-2">ALL</v-btn>
+                    <v-btn variant="tonal" class="mr-2">Web Design</v-btn>
+                    <v-btn variant="tonal" class="mr-2">App Design</v-btn>
+                    <v-btn variant="tonal" class="mr-2">SEO</v-btn>
+                    <v-btn variant="tonal" >Photographie</v-btn>
+                  </div>
+            </v-col>
+            <v-col cols="12" class="imgcover">
+                <v-row class="fill-height" align="center" justify="center">
+                  <template v-for="(item, i) in items" :key="i">
+                    <v-col cols="12" md="4">
+                      <v-hover v-slot="{isHovering,props}">
+                        <v-card :elevation="isHovering ? 12: 2" class="{'on-hover' : isHovering}" v-bind="props">
+                          <v-img :src="item.img" height="225px" aspect-ratio="1"></v-img>
+                        </v-card>
+                      </v-hover>
+                    </v-col>
+                  </template>
+                </v-row>
+            </v-col>
+            <v-col  cols="12" sm="12">
+              <div class="d-flex justify-center mb-6">
+                <v-btn  class="mt-4" color="#F8DF7E"> Load More</v-btn>
+              </div>
+            </v-col>
+        </v-container>
+          <portofolio/>
+      </v-responsive>
 </v-app>
 </template>
 
@@ -160,7 +109,7 @@
   },
 };*/
 import { ref } from "vue";
-
+/*
 export default {
   setup() {
     const items = ref([
@@ -174,7 +123,7 @@ export default {
       items,
     };
   },
-};
+};*/
 </script>
 
 
@@ -185,20 +134,11 @@ padding: 16px 0;
 .imgcover{
     padding: 0 200px;
 }
-.pre{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    padding: 0 200px;
-    background-color:  #f5f5f5;
-}
-.hire{
+.first{
     width: 100%;
     height: 200px;
-    padding: 0 200px;
-    background-color:  #f5f5f5;
-    margin-top: -24px;
-
+    text-align: center;
+    padding: 2rem 2rem;
 }
 .child{
     display: inline-block;

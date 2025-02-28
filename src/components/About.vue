@@ -1,110 +1,70 @@
-<template>
-<v-app>
-    <v-responsive>
-        <v-container  fluid>
-            <v-col cols="12" class="mt-16" id="about">
-            <div>
-                <v-row>
-                    <v-col cols="12" sm="6">
-                    <div class="egg">
-                    <v-img src="@/assets/logo.png"></v-img>
-                    </div>
-                    </v-col>
-                    <v-col cols="12" sm="6">
-                        <h5 class="mt-16">About me</h5>
-                        <div style="width: 120px;">
-                            <v-slider v-model="slider2" color="yellow" thumb-label>
-
-                            </v-slider>
-                        </div>
-                        <h4 class="mt-8">I'm a Creative web designer</h4>
-                        <h4 >and developper</h4>
-                        <p class="text-grey">Graduated with a Certificate in PHP and passionate about computer science,. During my internships, I participated in the definition of user needs and the writing of programs. Known for my rigor and autonomy, I would like to put my skills at your service.</p>
-                        <br>
-                        <p class="text-grey">Graduated with a Certificate in PHP and passionate about computer science,. During my internships, I participated in the definition of user needs and the writing of programs. Known for my rigor and autonomy, I would like to put my skills at your service.</p>
-                        <v-btn small dark class="text-yellow mt-8" variant="outlined"> Download Resume</v-btn>
-                    </v-col>
-                </v-row>
-            </div>
-            </v-col>
-            <div class="text-center mt-4">
-                <h2>What we Do</h2>
-      </div>
-      <div  style="width: 120px; margin:0 auto;">
-                <v-slider v-model="slider2" color="yellow" thumb-label=""></v-slider>
-      </div>
-      <v-col cols="12" class="padd" id="portofolio">
-        <div class="first" id="project">
-          <v-row>
-            <v-col cols="12">
-                <div class="child">
-                    <v-btn icon="fas fa-laptop" color="#F8DF7E" class="text-white"></v-btn>
-                      <h3 class="ml-3 mt-4">Web Design</h3>
-                      <p class="text-grey ml-3 mt-4 text-caption">
-                          wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
-                      </p>
-                </div>
-                <div class="child">
-                  <v-btn icon="fas fa-mobile-alt" color="#F8DF7E" class="text-white"></v-btn>
-                    <h3 class="ml-3 mt-4">App Design</h3>
-                    <p class="text-grey ml-3 mt-4 text-caption">
-                        wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
-                    </p>
-                </div>
-                <div class="child">
-                <v-btn icon="fas fa-camera" color="#F8DF7E" class="text-white"></v-btn>
-                    <h3 class="ml-3 mt-4">Photographie</h3>
-                    <p class="text-grey ml-3 mt-4 text-caption">
-                    wfuuwfuowuofwofiowhiofw <br>hgeihfihwifhwihiwhfihwir <br>efeifehfihiiwhri
-                    </p>
-            </div>
-</v-col>
-</v-row>
-<v-divider></v-divider>
-</div>
-</v-col>
-<br><br>
-<Services/>     
-        </v-container>
-        
-    </v-responsive>
-
-</v-app>
-</template>
-
-
-<script>
-
-
-
+<script setup lang="ts">
+// About.vue
 </script>
 
-<style scoped>
-.v-container{
-padding: 16px 0;
-}
-.egg{
-    display: block;
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 300px;
-    background-color: #F8DF7E;
-    border-radius: 50% 50% 50% 50%/ 60% 60% 40% 0% ;
-}
-.first{
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    padding: 2rem 2rem;
-}
-.child{
-    display: inline-block;
-    padding: 2rem 2rem;
-    vertical-align: middle;
-    text-align: center;
-    margin-right: 8px;
-}
-
-
-
-</style>
+<template>
+  <section class="container section-padding">
+    <div class="row">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="section-title">À propos de moi</h2>
+        <p class="lead">Développeur Web Full Stack passionné par la création d'applications web performantes et élégantes.</p>
+        <p>
+          Avec une solide expérience dans le développement front-end et back-end, je crée des solutions web complètes
+          qui répondent aux besoins des utilisateurs tout en respectant les meilleures pratiques du secteur.
+        </p>
+        <p>
+          Ma passion pour l'apprentissage continu me permet de rester à jour avec les dernières technologies
+          et tendances du développement web, garantissant ainsi des solutions modernes et efficaces.
+        </p>
+        <div class="mt-4">
+          <h4>Mes valeurs :</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-transparent">🚀 Innovation et créativité</li>
+            <li class="list-group-item bg-transparent">🔍 Attention aux détails</li>
+            <li class="list-group-item bg-transparent">🤝 Collaboration et communication</li>
+            <li class="list-group-item bg-transparent">📈 Amélioration continue</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h3 class="mb-4">Parcours professionnel</h3>
+            
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <font-awesome-icon icon="briefcase" />
+                </div>
+              </div>
+              <div class="ms-3">
+                <h5>Développeur Full Stack </h5>
+                <p class="text-muted mb-1">Laravel Full Stack </p>
+                <p>Développement d'applications web d'une Plateforme de donation de dons utilisant Bootstrap5 et Django.</p>
+                <a href="#">
+                  <button type="button" class="btn btn-primary">
+                Click Here
+                </button></a>
+              </div>
+            </div>
+            
+            
+            
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <font-awesome-icon icon="graduation-cap" />
+                </div>
+              </div>
+              <div class="ms-3">
+                <h5>Formation Développement Web</h5>
+                <p class="text-muted mb-1">École de Développement • 2018 - 2020</p>
+                <p>Formation complète en développement web front-end et back-end.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

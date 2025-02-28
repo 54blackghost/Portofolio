@@ -7,7 +7,7 @@
         </v-btn>
         <v-spacer></v-spacer>
         <v-btn text @click="scroll('home')" class="text-yellow">Home</v-btn>
-        <v-btn text @click="scroll('about')" >About</v-btn>
+        <v-btn text @click="scroll('about')" >About me</v-btn>
         <v-btn text @click="scroll('services')" >Services</v-btn>
         <v-btn text @click="scroll('portofolio')" >Portofolio</v-btn>
         

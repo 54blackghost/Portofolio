@@ -5,10 +5,9 @@
  */
 
 // Styles
-import '@mdi/font/css/materialdesignicons.css'
-import '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/vue-fontawesome'
 import 'vuetify/styles'
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
+
 
 // Composables
 import { createVuetify } from 'vuetify'
@@ -18,4 +17,13 @@ export default createVuetify({
   theme: {
     defaultTheme: 'dark',
   },
+  icons: {
+    defaultSet: 'mdi', // Définit MDI comme ensemble d'icônes par défaut
+    aliases,
+    sets: {
+      mdi,
+    },
+  },
 })
+
+
