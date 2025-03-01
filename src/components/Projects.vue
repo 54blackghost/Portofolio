@@ -57,7 +57,7 @@ const projects = [
     id: 2,
     title: 'Application de Gestion de Dons',
     description: 'Application permettant aux utilisateurs de créer des levés de fonds en ligne.',
-    image: '/public/donation.png',
+    image: '/donation.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Django'],
     demoLink: '#',
     VisiteLink: '#'
