@@ -41,7 +41,7 @@
 
 
 
-<script setup lang="ts">
+<script setup >
 // Projects.vue
 const projects = [
   {

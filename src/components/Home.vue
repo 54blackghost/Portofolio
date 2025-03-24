@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup >
 // Home.vue
 const fullName = "Ulrich leblack"; // Remplacez par votre nom
 const title = "Développeur Web Full Stack";

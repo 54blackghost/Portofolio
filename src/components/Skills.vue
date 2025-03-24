@@ -78,7 +78,7 @@
 
 
 
-<script setup lang="ts">
+<script setup >
 // Skills.vue
 const frontendSkills = [
   { name: 'HTML5', icon: ['fab', 'html5'], color: '#E44D26', level: 95 },
