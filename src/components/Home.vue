@@ -109,7 +109,6 @@ const title = "Développeur Web Full Stack";
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, var(#2A2A2A), var(#ff6896) 100%);
   color: white;
   padding: 100px 0;
 }
