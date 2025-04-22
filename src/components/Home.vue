@@ -9,9 +9,9 @@ const title = "Développeur Web Full Stack";
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
-          <h1 class="display-4 fw-bold mb-3">{{ fullName }}</h1>
-          <h2 class="display-6 mb-4">{{ title }}</h2>
-          <p class="lead mb-5">Spécialisé en HTML, CSS, JavaScript, Bootstrap, Vue.js, Laravel et Django</p>
+          <h1 class="display-4 fw-bold mb-3 hero-title">{{ fullName }}</h1>
+          <h2 class="display-6 mb-4 hero-title">{{ title }}</h2>
+          <p class="lead mb-5 hero-text">Spécialisé en HTML, CSS, JavaScript, Bootstrap, Vue.js, Laravel et Django</p>
           <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mb-5">
             <font-awesome-icon :icon="['fab', 'html5']" class="tech-icon text-danger" />
             <font-awesome-icon :icon="['fab', 'css3-alt']" class="tech-icon text-primary" />
@@ -91,6 +91,20 @@ const title = "Développeur Web Full Stack";
   }
 }
 
+.hero-title{
+    font-size: 4.5rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    background: linear-gradient(45deg, var(#2A2A2A), var(#ff6896));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-text{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+    max-width: 500px;
+}
 .hero-section {
   min-height: 100vh;
   display: flex;
