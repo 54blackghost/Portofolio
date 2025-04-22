@@ -1,6 +1,6 @@
 <script setup >
 // Home.vue
-const fullName = "Ulrich leblack"; // Remplacez par votre nom
+const fullName = "Ulrich leblack"; 
 const title = "Développeur Web Full Stack";
 </script>
 
@@ -117,5 +117,41 @@ const title = "Développeur Web Full Stack";
   .hero-section {
     padding: 80px 0;
   }
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: var(--light);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    gap: 0.8rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    left: -100%;
+    transition: all o.3s ease;
+}
+.btn:hover::before{
+    left: 100%;
+}
+.scroll-reveal{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.scroll-reveal{
+    opacity: 1;
+    transform: translateY(0);
 }
 </style>

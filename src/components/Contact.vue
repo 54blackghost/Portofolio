@@ -1,6 +1,5 @@
 
 <template>
-<!--Booking section-->
 <section class="booking" id="booking">
   <div class="container">
             <div class="booking-content scroll-reveal" >
@@ -24,26 +23,6 @@
                             <input type="tel" id="phone" required>
                             <label for="phone">Phone Number</label>
                             <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="input-group">
-                            <select name="" id="service" required>
-                                <option value="">Select Service</option>
-                                <option>Hair Styling</option>
-                                <option>Facial Treatment</option>
-                                <option>Message Therapy</option>
-                                <option>Nail Art</option>
-                            </select>
-                            <i class="fas fa-spa"></i>
-                        </div>
-                        <div class="input-group">
-                            <input type="date" id="date" required>
-                            <label for="date">Preferred Date</label>
-                            <i class="fas fa-calenda-alt"></i>
-                        </div>
-                        <div class="input-group">
-                            <input type="time" id="time" required>
-                            <label for="time">Preferred Time</label>
-                            <i class="fas fa-clock"></i>
                         </div>
                         <div class="input-group full-width">
                             <textarea rows="4" placeholder="Décrivez votre projet ou votre demande..." id="message"></textarea>
