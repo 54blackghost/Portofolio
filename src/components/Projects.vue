@@ -18,7 +18,6 @@
           </div>
           <div class="card-footer bg-white border-0">
             <div class="d-flex justify-content-between">
-              <a :href="project.demoLink" class="btn btn-primary" target="_blank">Démo</a>
               <a :href="project.VisiteLink" class="btn btn-outline-secondary" target="_blank">Visite</a>
             </div>
           </div>
@@ -32,13 +31,6 @@
     </div>
   </section>
 </template>
-
-
-
-
-
-
-
 
 
 <script setup >
@@ -58,7 +50,6 @@ const projects = [
     description: 'Application permettant aux utilisateurs de créer des levés de fonds en ligne.',
     image: '/donation.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Django'],
-    demoLink: '#',
     VisiteLink: '#'
   },
   
