@@ -5,30 +5,29 @@
 <template>
   <div class="app-container">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">Mon Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
+      <div class="container">
+      <nav class="navbar">
+          <div class="logo">
+            <router-link class="nav-link" to="/">
+              Ulrich Le Black
+            </router-link></div>
+            <ul class="nav-links">
+              <li >
                 <router-link class="nav-link" to="/">
                   <font-awesome-icon icon="home" /> Accueil
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li >
                 <router-link class="nav-link" to="/about">
                   <font-awesome-icon icon="user" /> À propos
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li >
                 <router-link class="nav-link" to="/skills">
                   <font-awesome-icon icon="code" /> Compétences
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li >
                 <router-link class="nav-link" to="/projects">
                   <font-awesome-icon icon="briefcase" /> Projets
                 </router-link>
@@ -39,9 +38,8 @@
                 </router-link>
               </li>
             </ul>
-          </div>
+        </nav>
         </div>
-      </nav>
     </header>
 
     <main>

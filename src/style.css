@@ -93,6 +93,62 @@ h2 {
   --dark: #2A2A2A;
   --light: #FFFFFF;
 }
+header{
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  z-index: 1000;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a{
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+
+}
+.nav-links a::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after{
+  width: 100%;
+
+}
 .hero-title{
   font-size: 4.5rem;
   line-height: 1.1;

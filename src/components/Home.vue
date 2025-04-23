@@ -69,26 +69,6 @@ const title = "Développeur Web Full Stack";
 </template>
 
 <style scoped>
-.text-purple {
-  color: #7952b3;
-}
 
-.humaaans-image {
-  max-height: 500px;
-  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.1));
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 </style>
