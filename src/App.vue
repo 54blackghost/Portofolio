@@ -45,37 +45,29 @@
     <main>
       <router-view />
     </main>
-
-    <footer class="bg-dark text-white py-4 mt-5">
-      <div class="container text-center">
-        <div class="mb-3">
-          <a href="https://github.com/54blackghost" target="_blank" class="text-white me-3">
-            <font-awesome-icon :icon="['fab', 'github']" size="2x" />
-          </a>
-          <a href="https://www.linkedin.com/in/ulrich-leblack-7a803220a/" target="_blank" class="text-white me-3">
-            <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
-          </a>
-          <a href="mailto:ulrichleblack@example.com" class="text-white">
-            <font-awesome-icon icon="envelope" size="2x" />
-          </a>
+    <footer>
+        <div class="container">
+            <div class="footer-content scroll-reveal">
+                <div class="footer-col">
+                    <h3>Ulrich</h3>
+                    <p>Que l’on me donne 5 heures pour abattre un arbre, j’en prendrai 4h pour aiguiser ma hache.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/54blackghost"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ulrich-leblack-7a803220a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:ulrichleblack@example.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright --services">
+              <p>&copy; {{ new Date().getFullYear() }} - Portfolio Développeur Full Stack <i class="fas fa-heart"></i> By Ulrichleblack</p>
+            </div>
         </div>
-        <p>&copy; {{ new Date().getFullYear() }} - Portfolio Développeur Full Stack By Ulrichleblack</p>
-      </div>
     </footer>
   </div>
 </template>
 
 <style>
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
-main {
-  flex: 1;
-  padding-top: 76px;
-}
 
 .router-link-active {
   font-weight: bold;
