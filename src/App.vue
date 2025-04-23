@@ -50,7 +50,7 @@
             <div class="footer-content scroll-reveal">
                 <div class="footer-col">
                     <h3>Ulrich</h3>
-                    <p>Que l’on me donne 5 heures pour abattre un arbre, j’en prendrai 4h pour aiguiser ma hache.</p>
+                    <p> " Que l’on me donne 5 heures pour abattre un arbre, j’en prendrai 4h pour aiguiser ma hache ".</p>
                     <div class="social-links">
                         <a href="https://github.com/54blackghost"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/ulrich-leblack-7a803220a/"><i class="fa-brands fa-linkedin"></i></a>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="copyright --services">
-              <p>&copy; {{ new Date().getFullYear() }} - Portfolio Développeur Full Stack <i class="fas fa-heart"></i> By Ulrichleblack</p>
+              <p>&copy; {{ new Date().getFullYear() }} - Portfolio Développeur Full Stack <i class="fas fa-heart" style="color: red;"></i> By Ulrichleblack</p>
             </div>
         </div>
     </footer>

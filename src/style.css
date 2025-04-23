@@ -326,7 +326,7 @@ padding: 100px 0;
 footer{
   background: var(--dark);
   color: var(--light);
-  padding: 6rem 0 3rem;
+  padding: 2rem 0 3rem;
   position: relative;
 }
 

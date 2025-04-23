@@ -33,34 +33,7 @@
                         <span v-if="loading" class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
                         {{ loading ? 'Envoi en cours...' : 'Envoyer le message' }}
                     </button>
-                </form>
-        
-                  <div class="row mt-5">
-                      <div class="col-md-4 text-center mb-4 mb-md-0">
-                        <div class="bg-white p-4 rounded shadow-sm h-100">
-                          <font-awesome-icon icon="envelope" class="text-primary mb-3" size="2x" />
-                          <a href="mailto:ulrichleblack@gmail.com" class="text-decoration-none">
-                            <h5>Email</h5>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-center mb-4 mb-md-0">
-                        <div class="bg-white p-4 rounded shadow-sm h-100">
-                          <font-awesome-icon :icon="['fab', 'linkedin']" class="text-primary mb-3" size="2x" />
-                          <a href="https://www.linkedin.com/in/ulrich-leblack-7a803220a/" target="_blank" class="text-decoration-none">
-                            <h5>LinkedIn</h5>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-md-4 text-center">
-                        <div class="bg-white p-4 rounded shadow-sm h-100">
-                          <font-awesome-icon :icon="['fab', 'github']" class="text-primary mb-3" size="2x" />
-                          <a href="https://github.com/54blackghost" target="_blank" class="text-decoration-none">
-                            <h5>GitHub</h5>
-                          </a>
-                        </div>
-                      </div>
-                  </div>
+                  </form>
       </div>
     </div>
   </div>
