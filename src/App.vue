@@ -9,7 +9,7 @@
       <nav class="navbar">
           <div class="logo">
             <router-link class="nav-link" to="/">
-              Ulrich Le Black
+             <span>Ulrich LeBlack</span> 
             </router-link></div>
             <ul class="nav-links">
               <li >
@@ -63,9 +63,4 @@
 
 <style>
 
-
-.router-link-active {
-  font-weight: bold;
-  color: #fff !important;
-}
 </style>
