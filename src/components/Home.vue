@@ -33,7 +33,7 @@ const title = "Développeur Web Full Stack";
     </div>
   </section>
 
-  <section class="section-padding bg-light">
+  <section class="section-padding bg-dark">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4">

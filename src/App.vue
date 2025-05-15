@@ -23,11 +23,6 @@
                 </router-link>
               </li>
               <li >
-                <router-link class="nav-link" to="/skills">
-                  <font-awesome-icon icon="code" /> Compétences
-                </router-link>
-              </li>
-              <li >
                 <router-link class="nav-link" to="/projects">
                   <font-awesome-icon icon="briefcase" /> Projets
                 </router-link>

@@ -15,7 +15,6 @@ import { faEnvelope, faHome, faUser, faBriefcase, faGraduationCap, faCode, faSer
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
-import Skills from './components/Skills.vue'
 import Contact from './components/Contact.vue'
 
 // Configuration des icônes
@@ -29,7 +28,6 @@ const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
   { path: '/projects', component: Projects },
-  { path: '/skills', component: Skills },
   { path: '/contact', component: Contact }
 ]
 
