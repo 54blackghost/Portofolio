@@ -1,6 +1,6 @@
 
 <template>
-<div class="booking" >
+<section class="booking" id="booking" >
   <div class="container">
             <div class="booking-content scroll-reveal" >
               <h2 class="section-title text-center mb-5">Me contacter</h2>
@@ -36,7 +36,7 @@
                   </form>
       </div>
     </div>
-  </div>
+</section>
 </template>
 
 

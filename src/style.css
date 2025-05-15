@@ -343,12 +343,15 @@ header{
 .projects {
     padding: 5rem 5%;
     position: relative;
+    background-color: var(--dark);
+    padding-top: 100px;
 }
 
 .projects-grid {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
+    padding: 2rem;
     margin-top: 2rem;
 }
 
@@ -426,7 +429,7 @@ header{
 /*Contact section*/
 .booking{
   padding: 8rem 0;
-  background: linear-gradient(45deg, var(--primary),var(--secondary));
+  background-color: var(--dark);
   color: var(--light);
   position: relative;
   overflow: hidden;
