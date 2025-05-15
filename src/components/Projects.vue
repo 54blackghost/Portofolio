@@ -52,14 +52,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     VisiteLink: 'https://saveur-afrique.netlify.app'
   },
-  {
-    id: 4,
-    title: 'Site Vitrine pour Saveur Afrique',
-    description: "Saveur d'Afrique est spécialisé dans la gastronomie et pomouvois les plats d'Afrique",
-    image: '/saveur-afrique.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    VisiteLink: 'https://saveur-afrique.netlify.app'
-  },
+  
   
 ];
 </script>
