@@ -19,7 +19,7 @@
               </li>
               <li >
                 <router-link class="nav-link" to="/about">
-                  <font-awesome-icon icon="user" /> À propos
+                  <font-awesome-icon icon="user" />About Me
                 </router-link>
               </li>
               <li >

@@ -25,48 +25,37 @@ const otherSkills = [
 </script>
 
 <template>
-  <section class="container section-padding">
-    <div class="row">
-      <div class="col-lg-6 mb-4 mb-lg-0">
-        <h2 class="section-title">À propos de moi</h2>
-        <p class="lead">Développeur Web Full Stack passionné par la création d'applications web performantes et élégantes.</p>
-        <p>
-          Avec une solide expérience dans le développement front-end et back-end, je crée des solutions web complètes
-          qui répondent aux besoins des utilisateurs tout en respectant les meilleures pratiques du secteur.
-        </p>
-        <p>
-          Ma passion pour l'apprentissage continu me permet de rester à jour avec les dernières technologies
-          et tendances du développement web, garantissant ainsi des solutions modernes et efficaces.
-        </p>
-        <div class="mt-4">
-          <h4>Mes valeurs :</h4>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent">🚀 Innovation et créativité</li>
-            <li class="list-group-item bg-transparent">🔍 Attention aux détails</li>
-            <li class="list-group-item bg-transparent">🤝 Collaboration et communication</li>
-            <li class="list-group-item bg-transparent">📈 Amélioration continue</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card border-0 shadow-sm">
-          <div class="card-body p-4">
-            <h3 class="mb-4">Mes compétences</h3>
-            
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <h3 class="mb-4">Technologies maîtrisées</h3>
-            <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
-              <div v-for="(skill, index) in [...frontendSkills, ...backendSkills]" :key="index" class="text-center">
-                <font-awesome-icon :icon="skill.icon" :style="{ color: skill.color }" class="tech-icon" />
-                <p>{{ skill.name }}</p>
-              </div>
+   <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                  Je suis un développeur full-stack passionné avec plus de 5 ans d'expérience dans la création d'applications web dynamiques. Mon parcours dans la technologie a commencé avec la création de mon premier site web à 15 ans, et je suis passionné depuis.
+                </p>
+                <p>
+                  Je suis spécialisé dans les frameworks JavaScript modernes et possède un sens aigu du design. Mon approche allie expertise technique et résolution créative de problèmes pour offrir des expériences utilisateur exceptionnelles.
+                </p>
+                <p>
+                  Lorsque je ne code pas, vous pouvez me trouver en train de contribuer à des projets open source, d'assister à des rencontres technologiques ou d'explorer les dernières nouveautés en matière de développement VR.
+                </p>
             </div>
-          </div>
+
+            <div class="skills">
+                <div v-for="(skill, index) in [...frontendSkills, ...backendSkills]" :key="index" class="skill-item">
+                    <div  class="skill-name">
+                        <span>{{ skill.name }}</span>
+                        <span>{{ skill.level }}%</span>
+                    </div>
+                    <div class="skill-bar" >
+                        <div class="skill-progress" :style="{ width: skill.level + '%' }"></div>
+                    </div>
+
+                </div>
+
+                
+            </div>
         </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+
 </template>

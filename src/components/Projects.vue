@@ -27,6 +27,28 @@
       <router-link to="/contact" class="btn btn-lg btn-primary">Discutons-en</router-link>
     </div>
     </section>
+    <!-- 
+     Projects Section 
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <img src="1.avif" alt="Project 1" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Neon Dashboard</h3>
+                    <p class="project-description">A modern admin dashboard with real-time analytics and customizable widgets built with React and D3.js.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div> -->
 
   <br>
 </template>
