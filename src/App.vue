@@ -24,7 +24,12 @@
               </li>
               <li >
                 <router-link class="nav-link" to="/projects">
-                  <font-awesome-icon icon="briefcase" /> Projets
+                  <font-awesome-icon icon="briefcase" /> Web Projets 
+                </router-link>
+              </li>
+              <li >
+                <router-link class="nav-link" to="/design">
+                  <font-awesome-icon icon="briefcase" />Design Projets 
                 </router-link>
               </li>
               <li class="nav-item">

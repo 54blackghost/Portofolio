@@ -2,7 +2,7 @@
 
 <template>
     <section class="projects" id="projects">
-        <h2 class="section-title">Mes Projets</h2>
+        <h2 class="section-title">Développement Projets</h2>
         <div class="projects-grid" >
             
             <div class="project-card" v-for="project in projects" :key="project.id">
@@ -15,8 +15,8 @@
                       class="tech-tag">{{ tech }}</span>
                     </div>
                     <div class="project-links">
-                        <a :href="project.VisiteLink" class="project-link" ><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a :href="project.VisiteLink" class="project-link" ><i class="fas fa-external-link-alt"></i>Voir le projet</a>
+                      
                     </div>
                 </div>
             </div>

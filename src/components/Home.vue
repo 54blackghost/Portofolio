@@ -1,7 +1,7 @@
 <script setup >
 // Home.vue
 const fullName = "Ulrich leblack"; 
-const title = "Développeur Web Full Stack";
+const title = "Développeur Web Full Stack et Graphisque Designer";
 </script>
 
 
@@ -9,9 +9,10 @@ const title = "Développeur Web Full Stack";
 <template> 
   <section class="hero" id="hero">
         <div class="hero-content">
-          <h1 > <span>{{ fullName }}</span>
+          <h1 > <span>{{ fullName }}</span><br>
           {{ title }}</h1>
-          <p>Spécialisé en HTML, CSS, JavaScript, Bootstrap, Vue.js, Laravel et Django</p>
+          <p>Je suis Ulrich, jeune designer graphique & développeur web</p>
+          <p>Je crée des identités visuelles modernes,des sites web responsive et je suis passionné par le digital et la tech.</p>
   
             <div>
               <router-link to="/projects" class="btn btn-light btn-lg me-3">Voir mes projets</router-link>
@@ -39,7 +40,7 @@ const title = "Développeur Web Full Stack";
                 <div class="project-info">
                   <font-awesome-icon icon="code" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Front-end</h3>
-                    <p class="project-description">Création d'interfaces utilisateur modernes et réactives avec HTML, CSS, JavaScript, Bootstrap et Vue.js.</p>
+                    <p class="project-description">Création d'interfaces utilisateur et visuelles modernes et réactives .</p>
                 </div>
               </div>
       </div>
@@ -49,7 +50,7 @@ const title = "Développeur Web Full Stack";
                 <div class="project-info">
                  <font-awesome-icon icon="server" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Back-end</h3>
-                    <p class="project-description">Développement de systèmes robustes et évolutifs avec Laravel (PHP) et Django (Python).</p>
+                    <p class="project-description">Développement de systèmes robustes et évolutifs avec NodejS (JavaScript), Laravel (PHP) et Django (Python).</p>
                 </div>
               </div>
       </div>
@@ -59,7 +60,7 @@ const title = "Développeur Web Full Stack";
                 <div class="project-info">
                   <font-awesome-icon icon="graduation-cap" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Apprentissage continu</h3>
-                    <p class="project-description">Toujours à l'affût des dernières technologies et meilleures pratiques du développement web.</p>
+                    <p class="project-description">Toujours à l'affût des dernières technologies et meilleures pratiques du développement web, du designer graphique.</p>
                 </div>
               </div>
       </div>

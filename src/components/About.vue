@@ -5,6 +5,8 @@ const frontendSkills = [
   { name: 'CSS3', icon: ['fab', 'css3-alt'], color: '#264DE4', level: 90 },
   { name: 'JavaScript', icon: ['fab', 'js'], color: '#F7DF1E', level: 85 },
   { name: 'Bootstrap', icon: ['fab', 'bootstrap'], color: '#7952B3', level: 90 },
+  {name: 'Responsive Design', icon: 'code', color: '#FF6B6B', level: 90 },
+  { name: 'Git', icon: ['fab', 'github'], color: '#F05032', level: 85 },
   { name: 'Vue.js', icon: ['fab', 'vuejs'], color: '#4FC08D', level: 80 }
 ];
 
@@ -13,13 +15,15 @@ const backendSkills = [
   { name: 'Django', icon: ['fab', 'python'], color: '#092E20', level: 80 },
   { name: 'PHP', icon: 'code', color: '#777BB4', level: 85 },
   { name: 'Python', icon: ['fab', 'python'], color: '#3776AB', level: 80 },
+  { name: 'RESTful API', icon: 'code', color: '#0096D6', level: 80 },
   { name: 'SQL', icon: 'server', color: '#336791', level: 75 }
 ];
 
 const otherSkills = [
-  { name: 'Git', icon: ['fab', 'github'], color: '#F05032', level: 85 },
-  { name: 'RESTful API', icon: 'code', color: '#0096D6', level: 80 },
-  { name: 'Responsive Design', icon: 'code', color: '#FF6B6B', level: 90 },
+  { name: 'ILLUSTRATOR', icon: ['fab', 'github'], color: '#F05032', level: 85 },
+  { name: 'PHOTOSHOP', icon: 'code', color: '#0096D6', level: 80 },
+  { name: 'CANVA', icon: 'code', color: '#0096D6', level: 80 },
+  { name: 'FIGMA', icon: 'code', color: '#FF6B6B', level: 60 },
   
 ];
 </script>
@@ -42,7 +46,7 @@ const otherSkills = [
             </div>
 
             <div class="skills">
-                <div v-for="(skill, index) in [...frontendSkills, ...backendSkills]" :key="index" class="skill-item">
+                <div v-for="(skill, index) in [...frontendSkills, ...backendSkills, ...otherSkills]" :key="index" class="skill-item">
                     <div  class="skill-name">
                         <span>{{ skill.name }}</span>
                         <span>{{ skill.level }}%</span>
