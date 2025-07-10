@@ -24,6 +24,14 @@ const designs = [
     technologies: ['Adobe PhotoShop'],
    
   },
+   {
+    id: 4,
+    title: "Formation en Produits d'/entretien menager",
+    description: "Une affiche qui presente les differents modules d'une formation de produits de menage.",
+    image: '/formation_lessivage.png',
+    technologies: ['Adobe PhotoShop'],
+   
+  },
   
   
 ];

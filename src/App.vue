@@ -1,16 +1,15 @@
-<script setup >
-// App.vue
-</script>
+
 
 <template>
   <div class="app-container">
     <header>
       <div class="container">
-      <nav class="navbar">
+      <nav class="navbar" id="navLinks">
           <div class="logo">
             <router-link class="nav-link" to="/">
              <span>Ulrich LeBlack</span> 
             </router-link></div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
             <ul class="nav-links">
               <li >
                 <router-link class="nav-link" to="/">
@@ -66,6 +65,14 @@
   </div>
 </template>
 
+
+<script setup >
+ function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+</script>
 <style>
+
 
 </style>
