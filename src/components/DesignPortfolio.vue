@@ -32,6 +32,14 @@ const designs = [
     technologies: ['Adobe PhotoShop'],
    
   },
+   {
+    id: 5,
+    title: "Flyer pour ETS ROYAL ALU",
+    description: "Une affiche qui presente les differents services que realise la structure Royal Alu.",
+    image: '/royal_alu2.png',
+    technologies: ['Adobe Illustrator'],
+   
+  },
   
   
 ];
