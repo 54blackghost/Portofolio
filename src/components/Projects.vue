@@ -52,6 +52,14 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     VisiteLink: 'https://saveur-afrique.netlify.app'
   },
+  {
+    id: 4,
+    title: 'Site Vitrine pour salon de Beaute',
+    description: "C'est une page qui montre les competences et domaines d'un salon de beaute moderne",
+    image: '/beauty.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    VisiteLink: '#'
+  },
   
   
 ];
