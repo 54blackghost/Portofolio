@@ -56,7 +56,7 @@ const projects = [
     id: 4,
     title: 'Site Vitrine pour salon de Beaute',
     description: "C'est une page qui montre les competences et domaines d'un salon de beaute moderne",
-    image: '/beauty.png',
+    image: '/beauty.PNG',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     VisiteLink: '#'
   },
