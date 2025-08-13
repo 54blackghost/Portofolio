@@ -15,8 +15,9 @@ const title = "Développeur Web Full Stack et Graphisque Designer";
           <p>Je crée des identités visuelles modernes,des sites web responsive et je suis passionné par le digital et la tech.</p>
   
             <div>
-              <router-link to="/projects" class="btn btn-light btn-lg me-3">Voir mes projets</router-link>
+              <router-link to="/CV_NONO_ULRICH_DesignGraphique.pdf" class="btn btn-light btn-lg me-3">Télécharger mon CV</router-link>
               <router-link to="/contact" class="btn btn-outline-light btn-lg">Me contacter</router-link>
+             
             </div>
         </div>
         
