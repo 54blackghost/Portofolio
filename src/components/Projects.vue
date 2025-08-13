@@ -64,7 +64,7 @@ const projects = [
     id: 5,
     title: 'Facebook downloader',
     description: "projet permettant de télécharger des vidéos sur facebook juste avec un lien.",
-    image: '/beauty.PNG',
+    image: '/fb_downloader.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Python', 'Flask'],
     VisiteLink: 'https://github.com/54blackghost/FB_downloader.git'
   },
