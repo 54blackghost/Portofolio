@@ -1,7 +1,11 @@
 <script setup >
 // Home.vue
+
+
+
 const fullName = "Ulrich leblack"; 
 const title = "Développeur Web Full Stack et Graphisque Designer";
+
 </script>
 
 
@@ -36,29 +40,34 @@ const title = "Développeur Web Full Stack et Graphisque Designer";
 
   <section class="hero" id="hero">
       <div class="projects-grid">
-            
+          
             <div class="project-card">
-                <div class="project-info">
+                <div 
+                  class="project-info">
                   <font-awesome-icon icon="code" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Front-end</h3>
                     <p class="project-description">Création d'interfaces utilisateur et visuelles modernes et réactives .</p>
                 </div>
               </div>
       </div>
-       <div class="projects-grid">
+      
+       <div 
+       class="projects-grid">
             
             <div class="project-card">
-                <div class="project-info">
+                <div 
+                  class="project-info">
                  <font-awesome-icon icon="server" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Back-end</h3>
                     <p class="project-description">Développement de systèmes robustes et évolutifs avec NodejS (JavaScript), Laravel (PHP) et Django (Python).</p>
                 </div>
               </div>
-      </div>
-      <div class="projects-grid">
-            
+       </div>
+      <div >
+          
             <div class="project-card">
-                <div class="project-info">
+                <div 
+                  class="project-info">
                   <font-awesome-icon icon="graduation-cap" class="mb-3 text-primary" size="3x" />
                     <h3 class="project-title">Apprentissage continu</h3>
                     <p class="project-description">Toujours à l'affût des dernières technologies et meilleures pratiques du développement web, du designer graphique.</p>

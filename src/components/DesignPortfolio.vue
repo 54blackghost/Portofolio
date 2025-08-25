@@ -35,8 +35,16 @@ const designs = [
    {
     id: 5,
     title: "Flyer pour ETS ROYAL ALU",
-    description: "Une affiche qui presente les differents services que realise la structure Royal Alu.",
+    description: "Une affiche qui presente les differents services de la structure Royal Alu.",
     image: '/royal_alu2.png',
+    technologies: ['Adobe Illustrator'],
+   
+  },
+  {
+    id: 6,
+    title: "MockUp",
+    description: "MockUp du Logo de la structure Royal Alu.",
+    image: '/mockup_royal_alu.png',
     technologies: ['Adobe Illustrator'],
    
   },

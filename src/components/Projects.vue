@@ -68,8 +68,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Python', 'Flask'],
     VisiteLink: 'https://github.com/54blackghost/FB_downloader.git'
   },
-  
-  
+   
 ];
 </script>
 

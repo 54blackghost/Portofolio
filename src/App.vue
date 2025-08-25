@@ -9,10 +9,9 @@
             <router-link class="nav-link" to="/">
              <span>Ulrich LeBlack</span> 
             </router-link></div>
-            <div class="hamburger" onclick="toggleMenu()">☰</div>
             <ul class="nav-links">
               <li >
-                <router-link class="nav-link" to="/">
+                <router-link class="nav-link" to="/" >
                   <font-awesome-icon icon="home" /> Accueil
                 </router-link>
               </li>
@@ -37,6 +36,7 @@
                 </router-link>
               </li>
             </ul>
+            
         </nav>
         </div>
     </header>
@@ -68,10 +68,7 @@
 
 
 <script setup >
- function toggleMenu() {
-      const nav = document.getElementById("navLinks");
-      nav.classList.toggle("active");
-    }
+
 </script>
 <style>
 
