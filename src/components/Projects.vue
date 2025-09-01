@@ -68,6 +68,14 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Python', 'Flask'],
     VisiteLink: 'https://github.com/54blackghost/FB_downloader.git'
   },
+  {
+    id: 6,
+    title: 'Page Web',
+    description: "projet vitrine permettant de presenter une structure en ligne.",
+    image: '/Capture2.PNG',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS ', 'ReactJS', 'framer-motion',' WebForm3'],
+    VisiteLink: 'https://github.com/54blackghost/ulb-social'
+  },
    
 ];
 </script>

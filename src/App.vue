@@ -1,15 +1,19 @@
 
 
-<template>
-  <div class="app-container">
-    <header>
+<template>   
+<div id="app-container">      
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navLinks">
       <div class="container">
-      <nav class="navbar" id="navLinks">
-          <div class="logo">
+        <!-- Logo -->
+        <div class="logo">
             <router-link class="nav-link" to="/">
              <span>Ulrich LeBlack</span> 
             </router-link></div>
-            <ul class="nav-links">
+
+        <!-- Liens -->
+   
+           <ul class="nav-links">
               <li >
                 <router-link class="nav-link" to="/" >
                   <font-awesome-icon icon="home" /> Accueil
@@ -36,11 +40,10 @@
                 </router-link>
               </li>
             </ul>
-            
-        </nav>
         </div>
-    </header>
-
+    
+    </nav>
+  </header>
     <main>
       <router-view />
     </main>
@@ -68,6 +71,9 @@
 
 
 <script setup >
+import { ref } from "vue";
+import { useRouter } from "vue-router";
+
 
 </script>
 <style>
