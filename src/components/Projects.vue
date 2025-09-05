@@ -58,7 +58,7 @@ const projects = [
     description: "C'est une page qui montre les competences et domaines d'un salon de beaute moderne",
     image: '/beauty.PNG',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    VisiteLink: '#'
+    VisiteLink: 'https://github.com/54blackghost/Design'
   },
    {
     id: 5,

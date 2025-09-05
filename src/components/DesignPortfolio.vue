@@ -48,6 +48,14 @@ const designs = [
     technologies: ['Adobe Illustrator'],
    
   },
+  {
+    id: 7,
+    title: "Flyer pour Delice de Daina",
+    description: "Affiche pour un post de publiciter",
+    image: '/Daina_poster.png',
+    technologies: ['Adobe PhotoShop'],
+   
+  },
   
   
 ];
