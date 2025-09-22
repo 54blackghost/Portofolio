@@ -50,13 +50,20 @@ const designs = [
   },
   {
     id: 7,
-    title: "Flyer pour Delice de Daina",
-    description: "Affiche pour un post de publiciter",
+    title: "Flyer",
+    description: "Affiche pour un post de publiciter des Delices de Daina",
     image: '/Daina_poster.png',
     technologies: ['Adobe PhotoShop'],
    
   },
-  
+    {
+    id: 8,
+    title: "Couverture",
+    description: "Presentation d'une couverture pour un livre ou bord d'etude ",
+    image: '/Couverture1.png',
+    technologies: ['Adobe PhotoShop'],
+   
+  },
   
 ];
 </script>
