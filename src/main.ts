@@ -13,11 +13,11 @@ import { faGithub, faLinkedin, faHtml5, faCss3Alt, faJs, faBootstrap, faVuejs, f
 import { faEnvelope, faHome, faUser, faBriefcase, faGraduationCap, faCode, faServer } from '@fortawesome/free-solid-svg-icons'
 
 // Import des composants pour les routes
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Projects from './components/Projects.vue'
-import DesignPortfolio from './components/DesignPortfolio.vue'
-import Contact from './components/Contact.vue'
+import Home from './pages/Home.vue'
+import About from './pages/About.vue'
+import Projects from './pages/Projects.vue'
+import DesignPortfolio from './pages/DesignPortfolio.vue'
+import Contact from './pages/Contact.vue'
 
 // Configuration des icônes
 library.add(

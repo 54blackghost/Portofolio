@@ -98,6 +98,17 @@ header{
       }
     }
 /*Hero section*/
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 5%;
+  padding-top: 130px;
+  position: relative; /* ⚠️ nécessaire pour absolute inset-0 */
+  overflow: hidden;   /* évite les débordements de l’animation */
+}
+
 .hero{
     display: flex;
     justify-content: space-between;
