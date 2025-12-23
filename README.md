@@ -393,14 +393,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   const projects = [
-  {
-    id: 1,
-    title: 'Site Vitrine  ',
-    description: "Plateforme de Présentation des services électronique de l'entreprise GTS Alarm",
-    image: '/gts.jpg',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Vue.js'],
-    VisiteLink: 'https://gts-alarm.vercel.app/'
-  },
+  
   {
     id: 2,
     title: 'Application de Gestion de Dons',
@@ -433,14 +426,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Python', 'Flask'],
     VisiteLink: 'https://github.com/54blackghost/FB_downloader.git'
   },
-  {
-    id: 6,
-    title: 'Page Web',
-    description: "projet vitrine permettant de presenter une structure en ligne.",
-    image: '/Capture2.PNG',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS ', 'ReactJS', 'framer-motion',' WebForm3'],
-    VisiteLink: 'https://github.com/54blackghost/ulb-social'
-  },
+ 
    
 const designs = [
   {

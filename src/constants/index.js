@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -16,12 +15,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -46,7 +42,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -71,10 +67,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -117,15 +109,15 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "ULB TV",
+    icon: '/ulbtv.png',
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      ' Développement et maintenance d\'applications web avec React.js et autres technologies connexes.',
+      'Collaboration avec des équipes pluridisciplinaires (designers, chefs de produit et autres développeurs) pour créer des produits de haute qualité.',
+      'Mise en œuvre d\'une conception adaptative et garantie de la compatibilité multi-navigateurs.',
+      'Participation aux revues de code et formulation de retours constructifs aux autres développeurs.'
     ],
   },
   {
@@ -219,47 +211,58 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Social Page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "projet vitrine permettant de presenter une structure en ligne.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind CSS ",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "WebForm3",
         color: "pink-text-gradient",
       },
+      {
+        name: "framer-motion",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: '/Capture2.PNG',
+    source_code_link: "https://github.com/54blackghost/ulb-social",
   },
+   
   {
-    name: "Trip Guide",
+    name: "Site Vitrine",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Plateforme de Présentation des services électronique de l'entreprise GTS Alarm.",
     tags: [
       {
-        name: "nextjs",
+        name: "Vue.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: '/gts.jpg',
+    source_code_link: "https://gts-alarm.vercel.app/",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+ 
+ 
