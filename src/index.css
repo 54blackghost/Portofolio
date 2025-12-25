@@ -3,6 +3,44 @@
 
 @import "tailwindcss";
 
+
+/* Configuration des couleurs personnalisées en v4 */
+@theme {
+  --color-primary: #050816;
+  --color-secondary: #aaa6c3;
+  --color-tertiary: #151030;
+  --color-black-100: #100d25;
+  --color-black-200: #090325;
+  --color-white-100: #f3f3f3;
+  
+  /* Ombres personnalisées */
+  --shadow-card: 0px 35px 120px -15px #211e35;
+  
+  /* Breakpoints personnalisés */
+  --breakpoint-xs: 450px;
+  
+  /* Images de fond */
+  --image-hero-pattern: url('/src/assets/herobg.png');
+}
+
+/* Classes utilitaires personnalisées */
+@layer utilities {
+  .bg-hero-pattern {
+    background-image: var(--image-hero-pattern);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .blue-text-gradient {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;

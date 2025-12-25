@@ -115,7 +115,7 @@ const Works = () => {
   <br />
       <div className='mt-12 flex flex-wrap gap-7 justify-center'>
         {designs.map((design, index) => (
-          <ProjectCard key={`design-${index}`} index={index} {...design} />
+          <ProjectCard key={`project-${index}`} index={index} {...design} />
         ))}
       </div>
     </>
