@@ -50,7 +50,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic designer",
     icon: creator,
   },
 ];
@@ -112,7 +112,7 @@ const experiences = [
     company_name: "ULB TV",
     icon: '/ulbtv.png',
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - present",
     points: [
       ' Développement et maintenance d\'applications web avec React.js et autres technologies connexes.',
       'Collaboration avec des équipes pluridisciplinaires (designers, chefs de produit et autres développeurs) pour créer des produits de haute qualité.',
@@ -262,7 +262,124 @@ const projects = [
     source_code_link: "https://gts-alarm.vercel.app/",
   },
 ];
+const designs = [
+  {
+    
+    name: 'Fete du Travail 2025',
+    description: "Affiche pour une entreprise, qui celebre la fete du travail",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/first_mai1.png',
+  },
+   {
+    
+    name: 'Tabaski 2025',
+    description: "A small visual for the ULB TV Enterprise to celebrate with Mulsuman community",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/Tabaski.png', 
+  },
+  {
+    name: 'Conference Flyer',
+    description: 'A simple design conference flyer designed.',
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/Free_Poster_Mockup_4.gif',
+    
+  },
+  {
+    
+    name: 'Cooking Flyer',
+    description: "A simple design cooking flyer designed.",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/Free_Poster_Mockup_5.gif',
+    
+   
+  },
+   {
+   
+    name: "Formation en Produits d'/entretien menager",
+    description: "Une affiche qui presente les differents modules d'une formation de produits de menage.",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/formation_lessivage.png',
+    
+   
+  },
+   {
+  
+    name: "Flyer pour ETS ROYAL ALU",
+    description: "Une affiche qui presente les differents services de la structure Royal Alu.",
+    tags: [
+      {
+        name: "'Adobe Adobe Illustrator'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/royal_alu2.png',
+  },
+  {
+  
+    name: "MockUp",
+    description: "MockUp du Logo de la structure Royal Alu.",
+    tags: [
+      {
+        name: "'Adobe Adobe Illustrator'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/mockup_royal_alu.png',
+    
+   
+  },
+  {
+    
+    name: "Flyer",
+    description: "Affiche pour un post de publiciter des Delices de Daina",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/Daina_poster.png',
+  },
+  {
+    name: "Couverture",
+    description: "Presentation d'une couverture pour un livre ou bord d'etude ",
+    tags: [
+      {
+        name: "'Adobe PhotoShop'",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: '/Couverture1.png',
+   
+  },
+  
+];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, designs };
  
  

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projects, designs } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -71,7 +71,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>My work</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Dev Projects.</h2>
       </motion.div>
 
       <div className='w-full flex justify-center'>
@@ -92,7 +92,36 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <br />
+
+
+       <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Design Projects.</h2>
+      </motion.div>
+
+
+      <div className='w-full flex justify-center'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-6 text-secondary text-base max-w-3xl leading-relaxed text-center'
+        >
+          Following projects showcase my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories and live demos. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage projects effectively.
+        </motion.p>
+      </div>
+  <br />
+      <div className='mt-12 flex flex-wrap gap-7 justify-center'>
+        {designs.map((design, index) => (
+          <ProjectCard key={`design-${index}`} index={index} {...design} />
+        ))}
+      </div>
     </>
+
+    
+
   );
 };
 
