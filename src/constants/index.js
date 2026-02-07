@@ -161,6 +161,92 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Donation Plateform",
+    description:
+      "Plateforme de dons pour les associations.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: '/donation.png',
+    source_code_link: "https://github.com/54blackghost/donor-crm",
+  },
+  {
+    name: "Saveur d'Afrique ",
+    description:
+      "Page web de presentation des saveurs d'origine africaine.",
+    tags: [
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: '/saveur-afrique.png',
+    source_code_link: "https://saveur-afrique.netlify.app/",
+  },
+  {
+    name: "Facebook Downloader",
+    description:
+      "Application de telechargement de video depuis Facebook.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: '/fb_downloader.PNG',
+    source_code_link: "https://github.com/54blackghost/FB_downloader",
+  },
+  {
+    name: "Beauty Salon",
+    description:
+      "Site web pour un salon de beauté.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: '/beauty.PNG',
+    source_code_link: "https://github.com/54blackghost/Design",
+  },
+  {
     name: "Quick Show",
     description:
       "Une plateform web de cinema, qui permet la reservation des films ou series, places dansun cine precis.",
@@ -206,33 +292,10 @@ const projects = [
     image: '/Capture2.PNG',
     source_code_link: "https://github.com/54blackghost/ulb-social",
   },
-   
-  {
-    name: "Site Vitrine",
-    description:
-      "Plateforme de Présentation des services électronique de l'entreprise GTS Alarm.",
-    tags: [
-      {
-        name: "Vue.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: '/gts.jpg',
-    source_code_link: "https://gts-alarm.vercel.app/",
-  },
+  
 ];
+
+
 const designs = [
   {
     

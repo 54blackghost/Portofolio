@@ -8,7 +8,7 @@ import { Tilt } from "react-tilt";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt 
-    className="w-full sm:w-[250px]"
+    className="w-full sm:w-62.5"
     options={{
       max: 45,
       scale: 1,
