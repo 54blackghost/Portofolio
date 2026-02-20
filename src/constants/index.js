@@ -107,7 +107,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "ULB TV",
-    icon: '/ulbtv.png',
+    icon: '/ulbtv.webp',
     iconBg: "#383E56",
     date: "March 2023 - present",
     points: [
@@ -182,7 +182,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: '/donation.png',
+    image: '/donation.webp',
     source_code_link: "https://github.com/54blackghost/donor-crm",
   },
   {
@@ -199,7 +199,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '/saveur-afrique.png',
+    image: '/saveur-afrique.webp',
     source_code_link: "https://saveur-afrique.netlify.app/",
   },
   {
@@ -221,7 +221,7 @@ const projects = [
       },
       
     ],
-    image: '/fb_downloader.PNG',
+    image: '/fb_downloader.webp',
     source_code_link: "https://github.com/54blackghost/FB_downloader",
   },
   {
@@ -243,7 +243,7 @@ const projects = [
       },
       
     ],
-    image: '/beauty.PNG',
+    image: '/beauty.webp',
     source_code_link: "https://github.com/54blackghost/Design",
   },
   {
@@ -264,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '/quickshow.PNG',
+    image: '/quickshow.webp',
     source_code_link: "https://github.com/54blackghost/QuickShow",
   },
   {
@@ -289,7 +289,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: '/Capture2.PNG',
+    image: '/Capture2.webp',
     source_code_link: "https://github.com/54blackghost/ulb-social",
   },
   
@@ -307,7 +307,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/first_mai1.png',
+    image: '/first_mai1.webp',
   },
    {
     
@@ -319,7 +319,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/Tabaski.png', 
+    image: '/Tabaski.webp', 
   },
   {
     name: 'Conference Flyer',
@@ -330,7 +330,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/Free_Poster_Mockup_4.gif',
+    image: '/Free_Poster_Mockup_4.webp',
     
   },
   {
@@ -343,7 +343,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/Free_Poster_Mockup_5.gif',
+    image: '/Free_Poster_Mockup_5.webp',
     
    
   },
@@ -357,7 +357,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/formation_lessivage.png',
+    image: '/formation_lessivage.webp',
     
    
   },
@@ -371,7 +371,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/royal_alu2.png',
+    image: '/royal_alu2.webp',
   },
   {
   
@@ -383,7 +383,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/mockup_royal_alu.png',
+    image: '/mockup_royal_alu.webp',
     
    
   },
@@ -397,7 +397,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/Daina_poster.png',
+    image: '/Daina_poster.webp',
   },
   {
     name: "Couverture",
@@ -408,7 +408,7 @@ const designs = [
         color: "blue-text-gradient",
       }
     ],
-    image: '/Couverture1.png',
+    image: '/Couverture1.webp',
    
   },
   
