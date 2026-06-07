@@ -4,7 +4,7 @@ export const personalInfo = {
   tagline: "Building modern web experiences with clean code and creative solutions.",
   bio: "I'm a passionate full-stack developer with 2+ years of experience building scalable web applications. I specialize in React, Node.js, Django. I love turning complex problems into simple, beautiful solutions.",
   email: "ulrichleblackg@gmail.com",
-  location: "Douala, CM",
+  location: "Douala, CM 😂😂😂",
   socials: {
     github: "https://github.com/54blackghost/",
     linkedin: "https://www.linkedin.com/in/ulrich-leblack-7a803220a/",
@@ -13,8 +13,8 @@ export const personalInfo = {
 };
 
 export const experiences = [
-  { year: "2023 - Present", role: "Freelance Full-Stack Developer", company: "ULB TV", description: "Leading development of microservices architecture and React-based frontends and backend." },
-  { year: "2025 - 2026", role: "Frontend Developer", company: "ULB Agence", description: "Built and shipped 3 production applications serving 100k+ users." },
+  { year: "2023 - Present", role: "Freelance Full-Stack Developer", company: "ULB TV", description: "Leading development of microservices architecture and React-based frontends and backend.",  demo_link: "https://example.com" },
+  { year: "2025 - 2026", role: "Frontend Developer", company: "ULB Agence", description: "Built and shipped a web App.",  demo_link: "https://example.com" },
 ];
 
 export const education = [
@@ -22,10 +22,12 @@ export const education = [
 ];
 
 export const skills = [
+  { name: "HTML", category: "Frontend", level: 95 },
+  { name: "CSS", category: "Frontend", level: 95 },
+  { name: "JavaScript", category: "Frontend", level: 95 },
   { name: "React", category: "Frontend", level: 95 },
   { name: "TypeScript", category: "Frontend", level: 90 },
   { name: "TailwindCSS", category: "Frontend", level: 92 },
-  { name: "HTML/CSS", category: "Frontend", level: 95 },
   { name: "Node.js", category: "Backend", level: 88 },
   { name: "Express", category: "Backend", level: 85 },
   { name: "MongoDB", category: "Database", level: 80 },
@@ -45,7 +47,7 @@ export const projects = [
     id: "1",
     title: "Quick Show",
     description: "A web platform for cinema, which allows booking of films or series, seats in a specific cinema.",
-    technologies: ["React", "Node.js", "MongoDB", "clerk"],
+    technologies: ["React", "Node.js", "Express", "TaiwindCss", "MongoDB", "clerk"],
     github_link: "https://github.com/54blackghost/QuickShow",
     demo_link: "https://example.com",
     image_url: "/quickshow.webp",
@@ -67,6 +69,24 @@ export const projects = [
     github_link: "https://github.com/54blackghost/ulb-social",
     demo_link: "https://example.com",
     image_url: "/Capture2.webp",
+  },
+  {
+    id: "4",
+    title: "PinkUP",
+    description: "A social network similar to Facebook and others that allows users to connect.",
+    technologies: ["React", "Node.js", "Express", "TaiwindCss", "MongoDB", "clerk"],
+    github_link: "https://github.com/54blackghost/ULB_social_media",
+    demo_link: "https://example.com",
+    image_url: "#",
+  },
+  {
+    id: "5",
+    title: "Video Call",
+    description: "Fullstack Chat & Video Calling App to learn languages differs between users.",
+    technologies: ["React", "Node.js", "Express", "TaiwindCss", "MongoDB", "JWT", "STREAM"],
+    github_link: "https://github.com/54blackghost/VideoCall",
+    demo_link: "https://example.com",
+    image_url: "#",
   },
   
 ];

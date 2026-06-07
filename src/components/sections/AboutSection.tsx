@@ -1,6 +1,6 @@
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { personalInfo, experiences, education } from "@/lib/data";
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, ExternalLink, GraduationCap } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -30,7 +30,12 @@ export function AboutSection() {
                     <span className="text-xs font-mono text-primary">{exp.year}</span>
                     <h4 className="text-base font-semibold mt-1">{exp.role}</h4>
                     <p className="text-sm text-muted-foreground">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground/70 mt-1">{exp.description}</p>
+                    <p className="text-sm text-muted-foreground/70 mt-1">{exp.description}</p><br />
+                    <p className="text-sm text-muted-foreground/70 mt-1">
+                      <a href={exp.demo_link} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      <ExternalLink className="h-5 w-5" />
+                    </a>
+                    </p>
                   </div>
                 </AnimatedSection>
               ))}
