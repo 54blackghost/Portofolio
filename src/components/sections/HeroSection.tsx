@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Code2, ExternalLink } from "lucide-react";
+import { ArrowDown, Code2, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@/lib/data";
 
@@ -67,6 +67,15 @@ export function HeroSection() {
           <Button size="lg" variant="outline" asChild>
             <a href="#contact">Contact Me</a>
           </Button>
+
+          <a
+            href="/cv/Ulrich_LeBlack_CV.pdf"
+            download="Ulrich_LeBlack_CV.pdf"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-white hover:opacity-90 transition"
+          >
+            <Download size={18} />
+            Télécharger mon CV
+        </a>
         </motion.div>
 
         <motion.div
