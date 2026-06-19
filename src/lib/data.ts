@@ -88,6 +88,15 @@ export const projects = [
     demo_link: "https://example.com",
     image_url: "#",
   },
+  {
+    id: "6",
+    title: "SAVEURS D'AFRIQUE",
+    description: "A web page that showcases African dishes, and especially Cameroonian dishes.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github_link: "https://github.com/54blackghost/Saveur_Afrique",
+    demo_link: "https://saveur-afrique.netlify.app/",
+    image_url: "#",
+  },
   
 ];
 
