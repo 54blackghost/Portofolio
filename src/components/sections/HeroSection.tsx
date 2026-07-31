@@ -69,8 +69,8 @@ export function HeroSection() {
           </Button>
 
           <a
-            href="/cv/Ulrich_LeBlack_CV.pdf"
-            download="Ulrich_LeBlack_CV.pdf"
+            href="/cv/Ulrich_luca_nono"
+            download="Ulrich_luca_nono.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-white hover:opacity-90 transition"
           >
             <Download size={18} />

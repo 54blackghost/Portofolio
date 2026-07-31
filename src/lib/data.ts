@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Full-Stack Developer",
   tagline: "Building modern web experiences with clean code and creative solutions.",
   bio: "I'm a passionate full-stack developer with 2+ years of experience building scalable web applications. I specialize in React, Node.js, Django. I love turning complex problems into simple, beautiful solutions.",
-  email: "ulrichleblackg@gmail.com",
+  email: "ulrichleblack@gmail.com",
   location: "Douala, CM 😂😂😂",
   socials: {
     github: "https://github.com/54blackghost/",
@@ -14,7 +14,7 @@ export const personalInfo = {
 
 export const experiences = [
   { year: "2023 - Present", role: "Freelance Full-Stack Developer", company: "ULB TV", description: "Leading development of microservices architecture and React-based frontends and backend.",  demo_link: "https://example.com" },
-  { year: "2025 - 2026", role: "Frontend Developer", company: "ULB Agence", description: "Built and shipped a web App.",  demo_link: "https://example.com" },
+  { year: "2025 - 2026", role: "Frontend Developer", company: "ULB Agence", description: "Built and shipped a web App.",  demo_link: "https://ulb-agence.vercel.app/" },
 ];
 
 export const education = [
