@@ -82,10 +82,10 @@ export const projects = [
   {
     id: "5",
     title: "Video Call",
-    description: "Fullstack Chat & Video Calling App to learn languages differs between users.",
+    description: "A full-stack chat and video calling application for learning different languages ​​based on user preferences.",
     technologies: ["React", "Node.js", "Express", "TaiwindCss", "MongoDB", "JWT", "STREAM"],
     github_link: "https://github.com/54blackghost/VideoCall",
-    demo_link: "https://example.com",
+    demo_link: "https://videocall-33w9.onrender.com/",
     image_url: "#",
   },
   {
