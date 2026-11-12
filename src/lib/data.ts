@@ -28,6 +28,7 @@ export const skills = [
   { name: "React", category: "Frontend", level: 95 },
   { name: "TypeScript", category: "Frontend", level: 90 },
   { name: "TailwindCSS", category: "Frontend", level: 92 },
+  { name: "react Native", category: "Frontend", level: 72 },
   { name: "Node.js", category: "Backend", level: 88 },
   { name: "Express", category: "Backend", level: 85 },
   { name: "MongoDB", category: "Database", level: 80 },
@@ -38,6 +39,7 @@ export const skills = [
   { name: "Clerk", category: "Auth", level: 80 },
   { name: "JWT", category: "Auth", level: 80 },
   { name: "Git", category: "Tools", level: 92 },
+  { name: "Expo", category: "Tools", level: 82 },
   
   { name: "VS Code", category: "Tools", level: 95 },
 ];
@@ -97,11 +99,20 @@ export const projects = [
     demo_link: "https://saveur-afrique.netlify.app/",
     image_url: "#",
   },
+  {
+    id: "7",
+    title: "Events-app",
+    description: "Events-app is a mobile application developed using React Native, Expo, and Django, designed to simplify and modernize event management. It enables organizers to create and manage their events, allows participants to discover available activities and register with ease, and helps teams control access through digital tickets and QR codes.",
+    technologies: ["React Native", "Expo", "Django"],
+    github_link: "https://github.com/54blackghost/Events-app",
+    demo_link: "#",
+    image_url: "#",
+  },
   
 ];
 
 export const services = [
-  { title: "Web Development", description: "Custom web applications built with modern technologies and best practices.", icon: "Globe" },
+  { title: "Web & App Development", description: "Custom web and mobile applications built with modern technologies and best practices.", icon: "Globe" },
   { title: "API Development", description: "Scalable RESTful and GraphQL APIs designed for performance and reliability.", icon: "Server" },
   { title: "Consulting", description: "Technical consulting and code reviews to improve your development process.", icon: "MessageSquare" },
 ];
